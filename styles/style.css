@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+.primary-color{
+  color: rgb(58, 58, 58);
+}
+ul li a{
+  text-decoration: none;
+  
+}
+nav ul li{
+  list-style: none;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding:  0 50px;
+}
+nav ul{
+  display: flex;
+  gap: 30px;
+  /* margin-top: 50px; */
+}
+.start-main-container{
+  margin-top: 50px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.start-container{
+  /* border: 1px solid green; */
+  width: 48%;
+  line-height: 36px;
+  
+}
+.start-img-container{
+  /* border: 1px solid red; */
+  width: 48%;
+  background-image: url(../images/Circle\ design.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.start-img-container img{
+  width: 50%;
+  margin-left: 100px;
+}
+.btn{
+  padding: 15px 24px;
+  background-color: rgb(224, 44, 109);
+  border: none;
+  color: white;
+  border-radius: 41px;
+  margin-top: 10px;
+}
+.all-logos{
+  margin-top: 100px;
+  padding: 0 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+
+}
+.hr-style{
+  width: 80%;
+  margin-left: 145px;
+  padding: 4px;
+}
+.popular-container{
+  margin-top: 50px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popular-box-container{
+  margin-top: 50px;
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-left: 20px;
+}
+.box{
+  margin-top: 50px;
+  padding: 30px;
+  width: 80%;
+  line-height: 30px;
+  border-radius: 5px;
+
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+background: rgb(255, 255, 255);
+
+}
+.box img{
+  width: 100%;
+}
+
+
+
